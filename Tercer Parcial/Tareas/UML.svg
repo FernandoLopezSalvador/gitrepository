@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="948pt" style="width:1055px;height:948px;" version="1.1" viewBox="0 0 1055 948" width="1055pt">
+    <defs>
+        <filter height="300%" id="f1" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <polygon fill="#FFFFFF" filter="url(#f1)" points="27,16,78,16,85,38.2969,332,38.2969,332,539,27,539,27,16" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="27" x2="85" y1="38.2969" y2="38.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="30" y="31.9951">entity</text>
+        <polygon fill="#FFFFFF" filter="url(#f1)" points="351,73.5,405,73.5,412,95.7969,798,95.7969,798,481.5,351,481.5,351,73.5" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="351" x2="412" y1="95.7969" y2="95.7969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="48" x="354" y="89.4951">model</text>
+        <polygon fill="#FFFFFF" filter="url(#f1)" points="14,577,97,577,104,599.2969,367,599.2969,367,794,14,794,14,577" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="14" x2="104" y1="599.2969" y2="599.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="17" y="592.9951">controller</text>
+        <polygon fill="#FFFFFF" filter="url(#f1)" points="386,564,429,564,436,586.2969,1048,586.2969,1048,941,386,941,386,564" style="stroke: #000000; stroke-width: 2.0;"/>
+        <line style="stroke: #000000; stroke-width: 2.0;" x1="386" x2="436" y1="586.2969" y2="586.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="37" x="389" y="579.9951">view</text>
+        <rect fill="#00FFFF" filter="url(#f1)" height="176.0469" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="35.5" y="62"/>
+        <ellipse cx="65.35" cy="78" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M68.3188,83.6406 Q67.7406,83.9375 67.1,84.0781 Q66.4594,84.2344 65.7563,84.2344 Q63.2562,84.2344 61.9281,82.5938 Q60.6156,80.9375 60.6156,77.8125 Q60.6156,74.6875 61.9281,73.0313 Q63.2562,71.375 65.7563,71.375 Q66.4594,71.375 67.1,71.5313 Q67.7563,71.6875 68.3188,71.9844 L68.3188,74.7031 Q67.6938,74.125 67.1,73.8594 Q66.5063,73.5781 65.8813,73.5781 Q64.5375,73.5781 63.85,74.6563 Q63.1625,75.7188 63.1625,77.8125 Q63.1625,79.9063 63.85,80.9844 Q64.5375,82.0469 65.8813,82.0469 Q66.5063,82.0469 67.1,81.7813 Q67.6938,81.5 68.3188,80.9219 L68.3188,83.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="82.65" y="82.1543">Productos</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="36.5" x2="163.5" y1="94" y2="94"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="43.5" y="102.9023"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="55.5" y="108.2104">id_prod:int</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="43.5" y="115.707"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="55.5" y="121.0151">descripcion:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="43.5" y="128.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="55.5" y="133.8198">precio:float</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="43.5" y="141.3164"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="55.5" y="146.6245">stock:int</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="36.5" x2="163.5" y1="153.2188" y2="153.2188"/>
+        <ellipse cx="46.5" cy="165.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="55.5" y="167.4292">set id_prod()</text>
+        <ellipse cx="46.5" cy="177.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="55.5" y="180.2339">get id_prod()</text>
+        <ellipse cx="46.5" cy="190.7305" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="55.5" y="193.0386">set descripcion()</text>
+        <ellipse cx="46.5" cy="203.5352" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="55.5" y="205.8433">get descripcion()</text>
+        <ellipse cx="46.5" cy="216.3398" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="55.5" y="218.6479">set stock()</text>
+        <ellipse cx="46.5" cy="229.1445" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="55.5" y="231.4526">get stock()</text>
+        <rect fill="#00FFFF" filter="url(#f1)" height="214.4609" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="200" y="43"/>
+        <ellipse cx="233.9" cy="59" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M236.8688,64.6406 Q236.2906,64.9375 235.65,65.0781 Q235.0094,65.2344 234.3063,65.2344 Q231.8063,65.2344 230.4781,63.5938 Q229.1656,61.9375 229.1656,58.8125 Q229.1656,55.6875 230.4781,54.0313 Q231.8063,52.375 234.3063,52.375 Q235.0094,52.375 235.65,52.5313 Q236.3063,52.6875 236.8688,52.9844 L236.8688,55.7031 Q236.2438,55.125 235.65,54.8594 Q235.0563,54.5781 234.4313,54.5781 Q233.0875,54.5781 232.4,55.6563 Q231.7125,56.7188 231.7125,58.8125 Q231.7125,60.9063 232.4,61.9844 Q233.0875,63.0469 234.4313,63.0469 Q235.0563,63.0469 235.65,62.7813 Q236.2438,62.5 236.8688,61.9219 L236.8688,64.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="252.1" y="63.1543">Clientes</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="201" x2="323" y1="75" y2="75"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="208" y="83.9023"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="220" y="89.2104">id_clientes:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="208" y="96.707"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="220" y="102.0151">nombre:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="208" y="109.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="220" y="114.8198">direccion:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="208" y="122.3164"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="220" y="127.6245">telfono:string</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="208" y="135.1211"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="220" y="140.4292">correo:String</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="201" x2="323" y1="147.0234" y2="147.0234"/>
+        <ellipse cx="211" cy="158.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="220" y="161.2339">get id_clientes()</text>
+        <ellipse cx="211" cy="171.7305" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="90" x="220" y="174.0386">set id_clientes()</text>
+        <ellipse cx="211" cy="184.5352" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="220" y="186.8433">get nombre()</text>
+        <ellipse cx="211" cy="197.3398" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="220" y="199.6479">set nombre()</text>
+        <ellipse cx="211" cy="210.1445" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="220" y="212.4526">get telefono()</text>
+        <ellipse cx="211" cy="222.9492" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="220" y="225.2573">set telefono()</text>
+        <ellipse cx="211" cy="235.7539" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="220" y="238.062">get correo()</text>
+        <ellipse cx="211" cy="248.5586" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="220" y="250.8667">set correo()</text>
+        <rect fill="#00FFFF" filter="url(#f1)" height="214.4609" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="42.5" y="317"/>
+        <ellipse cx="59.3" cy="333" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M62.2688,338.6406 Q61.6906,338.9375 61.05,339.0781 Q60.4094,339.2344 59.7063,339.2344 Q57.2063,339.2344 55.8781,337.5938 Q54.5656,335.9375 54.5656,332.8125 Q54.5656,329.6875 55.8781,328.0313 Q57.2063,326.375 59.7063,326.375 Q60.4094,326.375 61.05,326.5313 Q61.7063,326.6875 62.2688,326.9844 L62.2688,329.7031 Q61.6438,329.125 61.05,328.8594 Q60.4563,328.5781 59.8313,328.5781 Q58.4875,328.5781 57.8,329.6563 Q57.1125,330.7188 57.1125,332.8125 Q57.1125,334.9063 57.8,335.9844 Q58.4875,337.0469 59.8313,337.0469 Q60.4563,337.0469 61.05,336.7813 Q61.6438,336.5 62.2688,335.9219 L62.2688,338.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="79" x="73.7" y="337.1543">Proveedores</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="43.5" x2="156.5" y1="349" y2="349"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="50.5" y="357.9023"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="62.5" y="363.2104">id_prov:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="50.5" y="370.707"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="62.5" y="376.0151">nombre:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="50.5" y="383.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="62.5" y="388.8198">direccion:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="50.5" y="396.3164"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="62.5" y="401.6245">telefono:String</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="50.5" y="409.1211"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="62.5" y="414.4292">correo:String</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="43.5" x2="156.5" y1="421.0234" y2="421.0234"/>
+        <ellipse cx="53.5" cy="432.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="62.5" y="435.2339">get id_prov()</text>
+        <ellipse cx="53.5" cy="445.7305" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="62.5" y="448.0386">set id_prov()</text>
+        <ellipse cx="53.5" cy="458.5352" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="62.5" y="460.8433">get nombre()</text>
+        <ellipse cx="53.5" cy="471.3398" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="62.5" y="473.6479">set nombre()</text>
+        <ellipse cx="53.5" cy="484.1445" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="81" x="62.5" y="486.4526">get direccion()</text>
+        <ellipse cx="53.5" cy="496.9492" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="62.5" y="499.2573">se direccion()</text>
+        <ellipse cx="53.5" cy="509.7539" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="62.5" y="512.062">get correo()</text>
+        <ellipse cx="53.5" cy="522.5586" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="62.5" y="524.8667">set correo()</text>
+        <rect fill="#FFC0CB" filter="url(#f1)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="188" x="359" y="100.5"/>
+        <ellipse cx="374" cy="116.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M369.9219,112.2656 L369.9219,110.1094 L377.3125,110.1094 L377.3125,112.2656 L374.8438,112.2656 L374.8438,120.3438 L377.3125,120.3438 L377.3125,122.5 L369.9219,122.5 L369.9219,120.3438 L372.3906,120.3438 L372.3906,112.2656 L369.9219,112.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="388" y="120.6543">IClienteModelImplements</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="360" x2="546" y1="132.5" y2="132.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="360" x2="546" y1="140.5" y2="140.5"/>
+        <ellipse cx="370" cy="152.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="379" y="154.7104">void obtenerCiente()</text>
+        <ellipse cx="370" cy="165.207" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="122" x="379" y="167.5151">void modificaCliente()</text>
+        <ellipse cx="370" cy="178.0117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="379" y="180.3198">void eliminarCliente()</text>
+        <ellipse cx="370" cy="190.8164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="379" y="193.1245">void mostrarCliente()</text>
+        <rect fill="#FFC0CB" filter="url(#f1)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="207" x="582.5" y="100.5"/>
+        <ellipse cx="597.5" cy="116.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M593.4219,112.2656 L593.4219,110.1094 L600.8125,110.1094 L600.8125,112.2656 L598.3438,112.2656 L598.3438,120.3438 L600.8125,120.3438 L600.8125,122.5 L593.4219,122.5 L593.4219,120.3438 L595.8906,120.3438 L595.8906,112.2656 L593.4219,112.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="175" x="611.5" y="120.6543">IProductosModelImplements</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="583.5" x2="788.5" y1="132.5" y2="132.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="583.5" x2="788.5" y1="140.5" y2="140.5"/>
+        <ellipse cx="593.5" cy="152.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="136" x="602.5" y="154.7104">void obtenerProductos()</text>
+        <ellipse cx="593.5" cy="165.207" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="602.5" y="167.5151">void modificarProductos()</text>
+        <ellipse cx="593.5" cy="178.0117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="602.5" y="180.3198">void eliminarProductos()</text>
+        <ellipse cx="593.5" cy="190.8164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="602.5" y="193.1245">void mostrarProductos()</text>
+        <rect fill="#FFC0CB" filter="url(#f1)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="208" x="359" y="374.5"/>
+        <ellipse cx="374" cy="390.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M369.9219,386.2656 L369.9219,384.1094 L377.3125,384.1094 L377.3125,386.2656 L374.8438,386.2656 L374.8438,394.3438 L377.3125,394.3438 L377.3125,396.5 L369.9219,396.5 L369.9219,394.3438 L372.3906,394.3438 L372.3906,386.2656 L369.9219,386.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="176" x="388" y="394.6543">IProveedorModelImplements</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="360" x2="566" y1="406.5" y2="406.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="360" x2="566" y1="414.5" y2="414.5"/>
+        <ellipse cx="370" cy="426.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="137" x="379" y="428.7104">void obtenerProveedor()</text>
+        <ellipse cx="370" cy="439.207" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="379" y="441.5151">void modificaProveedpr()</text>
+        <ellipse cx="370" cy="452.0117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="379" y="454.3198">void eliminarProveedor()</text>
+        <ellipse cx="370" cy="464.8164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="379" y="467.1245">void mostrarProveedor()</text>
+        <rect fill="#FFFF00" filter="url(#f1)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="32" y="604"/>
+        <ellipse cx="47" cy="620" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M49.9688,625.6406 Q49.3906,625.9375 48.75,626.0781 Q48.1094,626.2344 47.4063,626.2344 Q44.9063,626.2344 43.5781,624.5938 Q42.2656,622.9375 42.2656,619.8125 Q42.2656,616.6875 43.5781,615.0313 Q44.9063,613.375 47.4063,613.375 Q48.1094,613.375 48.75,613.5313 Q49.4063,613.6875 49.9688,613.9844 L49.9688,616.7031 Q49.3438,616.125 48.75,615.8594 Q48.1563,615.5781 47.5313,615.5781 Q46.1875,615.5781 45.5,616.6563 Q44.8125,617.7188 44.8125,619.8125 Q44.8125,621.9063 45.5,622.9844 Q46.1875,624.0469 47.5313,624.0469 Q48.1563,624.0469 48.75,623.7813 Q49.3438,623.5 49.9688,622.9219 L49.9688,625.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="104" x="61" y="624.1543">Ventascontroller</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="33" x2="167" y1="636" y2="636"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="33" x2="167" y1="644" y2="644"/>
+        <rect fill="#FFFF00" filter="url(#f1)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="156" x="203" y="604"/>
+        <ellipse cx="218" cy="620" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M220.9688,625.6406 Q220.3906,625.9375 219.75,626.0781 Q219.1094,626.2344 218.4063,626.2344 Q215.9063,626.2344 214.5781,624.5938 Q213.2656,622.9375 213.2656,619.8125 Q213.2656,616.6875 214.5781,615.0313 Q215.9063,613.375 218.4063,613.375 Q219.1094,613.375 219.75,613.5313 Q220.4063,613.6875 220.9688,613.9844 L220.9688,616.7031 Q220.3438,616.125 219.75,615.8594 Q219.1563,615.5781 218.5313,615.5781 Q217.1875,615.5781 216.5,616.6563 Q215.8125,617.7188 215.8125,619.8125 Q215.8125,621.9063 216.5,622.9844 Q217.1875,624.0469 218.5313,624.0469 Q219.1563,624.0469 219.75,623.7813 Q220.3438,623.5 220.9688,622.9219 L220.9688,625.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="232" y="624.1543">Productoscontroller</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="204" x2="358" y1="636" y2="636"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="204" x2="358" y1="644" y2="644"/>
+        <rect fill="#FFFF00" filter="url(#f1)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="156" x="22" y="738"/>
+        <ellipse cx="37" cy="754" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M39.9688,759.6406 Q39.3906,759.9375 38.75,760.0781 Q38.1094,760.2344 37.4063,760.2344 Q34.9063,760.2344 33.5781,758.5938 Q32.2656,756.9375 32.2656,753.8125 Q32.2656,750.6875 33.5781,749.0313 Q34.9063,747.375 37.4063,747.375 Q38.1094,747.375 38.75,747.5313 Q39.4063,747.6875 39.9688,747.9844 L39.9688,750.7031 Q39.3438,750.125 38.75,749.8594 Q38.1563,749.5781 37.5313,749.5781 Q36.1875,749.5781 35.5,750.6563 Q34.8125,751.7188 34.8125,753.8125 Q34.8125,755.9063 35.5,756.9844 Q36.1875,758.0469 37.5313,758.0469 Q38.1563,758.0469 38.75,757.7813 Q39.3438,757.5 39.9688,756.9219 L39.9688,759.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="51" y="758.1543">Proveedorcontroller</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="177" y1="770" y2="770"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="23" x2="177" y1="778" y2="778"/>
+        <rect fill="#FFFF00" filter="url(#f1)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="213" y="738"/>
+        <ellipse cx="228" cy="754" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M230.9688,759.6406 Q230.3906,759.9375 229.75,760.0781 Q229.1094,760.2344 228.4063,760.2344 Q225.9063,760.2344 224.5781,758.5938 Q223.2656,756.9375 223.2656,753.8125 Q223.2656,750.6875 224.5781,749.0313 Q225.9063,747.375 228.4063,747.375 Q229.1094,747.375 229.75,747.5313 Q230.4063,747.6875 230.9688,747.9844 L230.9688,750.7031 Q230.3438,750.125 229.75,749.8594 Q229.1563,749.5781 228.5313,749.5781 Q227.1875,749.5781 226.5,750.6563 Q225.8125,751.7188 225.8125,753.8125 Q225.8125,755.9063 226.5,756.9844 Q227.1875,758.0469 228.5313,758.0469 Q229.1563,758.0469 229.75,757.7813 Q230.3438,757.5 230.9688,756.9219 L230.9688,759.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="242" y="758.1543">Invetariocontroller</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="214" x2="358" y1="770" y2="770"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="214" x2="358" y1="778" y2="778"/>
+        <rect fill="#87CEEB" filter="url(#f1)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="394.5" y="604"/>
+        <ellipse cx="409.5" cy="620" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M412.4688,625.6406 Q411.8906,625.9375 411.25,626.0781 Q410.6094,626.2344 409.9063,626.2344 Q407.4063,626.2344 406.0781,624.5938 Q404.7656,622.9375 404.7656,619.8125 Q404.7656,616.6875 406.0781,615.0313 Q407.4063,613.375 409.9063,613.375 Q410.6094,613.375 411.25,613.5313 Q411.9063,613.6875 412.4688,613.9844 L412.4688,616.7031 Q411.8438,616.125 411.25,615.8594 Q410.6563,615.5781 410.0313,615.5781 Q408.6875,615.5781 408,616.6563 Q407.3125,617.7188 407.3125,619.8125 Q407.3125,621.9063 408,622.9844 Q408.6875,624.0469 410.0313,624.0469 Q410.6563,624.0469 411.25,623.7813 Q411.8438,623.5 412.4688,622.9219 L412.4688,625.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="423.5" y="624.1543">Principal</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="478.5" y1="636" y2="636"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="478.5" y1="644" y2="644"/>
+        <rect fill="#87CEEB" filter="url(#f1)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="514.5" y="597.5"/>
+        <ellipse cx="544.8" cy="613.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M547.7688,619.1406 Q547.1906,619.4375 546.55,619.5781 Q545.9094,619.7344 545.2063,619.7344 Q542.7063,619.7344 541.3781,618.0938 Q540.0656,616.4375 540.0656,613.3125 Q540.0656,610.1875 541.3781,608.5313 Q542.7063,606.875 545.2063,606.875 Q545.9094,606.875 546.55,607.0313 Q547.2063,607.1875 547.7688,607.4844 L547.7688,610.2031 Q547.1438,609.625 546.55,609.3594 Q545.9563,609.0781 545.3313,609.0781 Q543.9875,609.0781 543.3,610.1563 Q542.6125,611.2188 542.6125,613.3125 Q542.6125,615.4063 543.3,616.4844 Q543.9875,617.5469 545.3313,617.5469 Q545.9563,617.5469 546.55,617.2813 Q547.1438,617 547.7688,616.4219 L547.7688,619.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="562.2" y="617.6543">Login</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="515.5" x2="612.5" y1="629.5" y2="629.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="515.5" x2="612.5" y1="637.5" y2="637.5"/>
+        <ellipse cx="525.5" cy="649.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="534.5" y="651.7104">void validar()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="648.5" y="591"/>
+        <ellipse cx="681.95" cy="607" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M684.9188,612.6406 Q684.3406,612.9375 683.7,613.0781 Q683.0594,613.2344 682.3563,613.2344 Q679.8563,613.2344 678.5281,611.5938 Q677.2156,609.9375 677.2156,606.8125 Q677.2156,603.6875 678.5281,602.0313 Q679.8563,600.375 682.3563,600.375 Q683.0594,600.375 683.7,600.5313 Q684.3563,600.6875 684.9188,600.9844 L684.9188,603.7031 Q684.2938,603.125 683.7,602.8594 Q683.1063,602.5781 682.4813,602.5781 Q681.1375,602.5781 680.45,603.6563 Q679.7625,604.7188 679.7625,606.8125 Q679.7625,608.9063 680.45,609.9844 Q681.1375,611.0469 682.4813,611.0469 Q683.1063,611.0469 683.7,610.7813 Q684.2938,610.5 684.9188,609.9219 L684.9188,612.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="700.05" y="611.1543">Inventario</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="649.5" x2="782.5" y1="623" y2="623"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="649.5" x2="782.5" y1="631" y2="631"/>
+        <ellipse cx="659.5" cy="642.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="668.5" y="645.2104">void mostrartabla()</text>
+        <ellipse cx="659.5" cy="655.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="668.5" y="658.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="818.5" y="591"/>
+        <ellipse cx="857.35" cy="607" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M860.3188,612.6406 Q859.7406,612.9375 859.1,613.0781 Q858.4594,613.2344 857.7563,613.2344 Q855.2563,613.2344 853.9281,611.5938 Q852.6156,609.9375 852.6156,606.8125 Q852.6156,603.6875 853.9281,602.0313 Q855.2563,600.375 857.7563,600.375 Q858.4594,600.375 859.1,600.5313 Q859.7563,600.6875 860.3188,600.9844 L860.3188,603.7031 Q859.6938,603.125 859.1,602.8594 Q858.5063,602.5781 857.8813,602.5781 Q856.5375,602.5781 855.85,603.6563 Q855.1625,604.7188 855.1625,606.8125 Q855.1625,608.9063 855.85,609.9844 Q856.5375,611.0469 857.8813,611.0469 Q858.5063,611.0469 859.1,610.7813 Q859.6938,610.5 860.3188,609.9219 L860.3188,612.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="876.65" y="611.1543">Clientes</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="819.5" x2="952.5" y1="623" y2="623"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="819.5" x2="952.5" y1="631" y2="631"/>
+        <ellipse cx="829.5" cy="642.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="838.5" y="645.2104">void mostrartabla()</text>
+        <ellipse cx="829.5" cy="655.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="838.5" y="658.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="394.5" y="725"/>
+        <ellipse cx="420.3" cy="741" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M423.2688,746.6406 Q422.6906,746.9375 422.05,747.0781 Q421.4094,747.2344 420.7063,747.2344 Q418.2063,747.2344 416.8781,745.5938 Q415.5656,743.9375 415.5656,740.8125 Q415.5656,737.6875 416.8781,736.0313 Q418.2063,734.375 420.7063,734.375 Q421.4094,734.375 422.05,734.5313 Q422.7063,734.6875 423.2688,734.9844 L423.2688,737.7031 Q422.6438,737.125 422.05,736.8594 Q421.4563,736.5781 420.8313,736.5781 Q419.4875,736.5781 418.8,737.6563 Q418.1125,738.7188 418.1125,740.8125 Q418.1125,742.9063 418.8,743.9844 Q419.4875,745.0469 420.8313,745.0469 Q421.4563,745.0469 422.05,744.7813 Q422.6438,744.5 423.2688,743.9219 L423.2688,746.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="79" x="436.7" y="745.1543">Proveedores</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="528.5" y1="757" y2="757"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="528.5" y1="765" y2="765"/>
+        <ellipse cx="405.5" cy="776.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="414.5" y="779.2104">void mostrartabla()</text>
+        <ellipse cx="405.5" cy="789.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="414.5" y="792.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="564.5" y="725"/>
+        <ellipse cx="592.55" cy="741" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M595.5188,746.6406 Q594.9406,746.9375 594.3,747.0781 Q593.6594,747.2344 592.9563,747.2344 Q590.4563,747.2344 589.1281,745.5938 Q587.8156,743.9375 587.8156,740.8125 Q587.8156,737.6875 589.1281,736.0313 Q590.4563,734.375 592.9563,734.375 Q593.6594,734.375 594.3,734.5313 Q594.9563,734.6875 595.5188,734.9844 L595.5188,737.7031 Q594.8938,737.125 594.3,736.8594 Q593.7063,736.5781 593.0813,736.5781 Q591.7375,736.5781 591.05,737.6563 Q590.3625,738.7188 590.3625,740.8125 Q590.3625,742.9063 591.05,743.9844 Q591.7375,745.0469 593.0813,745.0469 Q593.7063,745.0469 594.3,744.7813 Q594.8938,744.5 595.5188,743.9219 L595.5188,746.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="74" x="609.45" y="745.1543">PuntoVenta</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="565.5" x2="698.5" y1="757" y2="757"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="565.5" x2="698.5" y1="765" y2="765"/>
+        <ellipse cx="575.5" cy="776.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="584.5" y="779.2104">void mostrartabla()</text>
+        <ellipse cx="575.5" cy="789.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="584.5" y="792.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="734.5" y="725"/>
+        <ellipse cx="772.9" cy="741" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M775.8688,746.6406 Q775.2906,746.9375 774.65,747.0781 Q774.0094,747.2344 773.3063,747.2344 Q770.8063,747.2344 769.4781,745.5938 Q768.1656,743.9375 768.1656,740.8125 Q768.1656,737.6875 769.4781,736.0313 Q770.8063,734.375 773.3063,734.375 Q774.0094,734.375 774.65,734.5313 Q775.3063,734.6875 775.8688,734.9844 L775.8688,737.7031 Q775.2438,737.125 774.65,736.8594 Q774.0563,736.5781 773.4313,736.5781 Q772.0875,736.5781 771.4,737.6563 Q770.7125,738.7188 770.7125,740.8125 Q770.7125,742.9063 771.4,743.9844 Q772.0875,745.0469 773.4313,745.0469 Q774.0563,745.0469 774.65,744.7813 Q775.2438,744.5 775.8688,743.9219 L775.8688,746.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="792.1" y="745.1543">VCliente</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="735.5" x2="868.5" y1="757" y2="757"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="735.5" x2="868.5" y1="765" y2="765"/>
+        <ellipse cx="745.5" cy="776.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="754.5" y="779.2104">void mostrartabla()</text>
+        <ellipse cx="745.5" cy="789.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="754.5" y="792.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="904.5" y="725"/>
+        <ellipse cx="936.6" cy="741" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M939.5688,746.6406 Q938.9906,746.9375 938.35,747.0781 Q937.7094,747.2344 937.0063,747.2344 Q934.5063,747.2344 933.1781,745.5938 Q931.8656,743.9375 931.8656,740.8125 Q931.8656,737.6875 933.1781,736.0313 Q934.5063,734.375 937.0063,734.375 Q937.7094,734.375 938.35,734.5313 Q939.0063,734.6875 939.5688,734.9844 L939.5688,737.7031 Q938.9438,737.125 938.35,736.8594 Q937.7563,736.5781 937.1313,736.5781 Q935.7875,736.5781 935.1,737.6563 Q934.4125,738.7188 934.4125,740.8125 Q934.4125,742.9063 935.1,743.9844 Q935.7875,745.0469 937.1313,745.0469 Q937.7563,745.0469 938.35,744.7813 Q938.9438,744.5 939.5688,743.9219 L939.5688,746.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="954.4" y="745.1543">Vproducto</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="905.5" x2="1038.5" y1="757" y2="757"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="905.5" x2="1038.5" y1="765" y2="765"/>
+        <ellipse cx="915.5" cy="776.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="924.5" y="779.2104">void mostrartabla()</text>
+        <ellipse cx="915.5" cy="789.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="924.5" y="792.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="394.5" y="859"/>
+        <ellipse cx="416.7" cy="875" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M419.6688,880.6406 Q419.0906,880.9375 418.45,881.0781 Q417.8094,881.2344 417.1063,881.2344 Q414.6063,881.2344 413.2781,879.5938 Q411.9656,877.9375 411.9656,874.8125 Q411.9656,871.6875 413.2781,870.0313 Q414.6063,868.375 417.1063,868.375 Q417.8094,868.375 418.45,868.5313 Q419.1063,868.6875 419.6688,868.9844 L419.6688,871.7031 Q419.0438,871.125 418.45,870.8594 Q417.8563,870.5781 417.2313,870.5781 Q415.8875,870.5781 415.2,871.6563 Q414.5125,872.7188 414.5125,874.8125 Q414.5125,876.9063 415.2,877.9844 Q415.8875,879.0469 417.2313,879.0469 Q417.8563,879.0469 418.45,878.7813 Q419.0438,878.5 419.6688,877.9219 L419.6688,880.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="87" x="432.3" y="879.1543">Vproveedores</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="528.5" y1="891" y2="891"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="395.5" x2="528.5" y1="899" y2="899"/>
+        <ellipse cx="405.5" cy="910.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="414.5" y="913.2104">void mostrartabla()</text>
+        <ellipse cx="405.5" cy="923.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="414.5" y="926.0151">void limpiartabla()</text>
+        <rect fill="#87CEEB" filter="url(#f1)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="135" x="564.5" y="859"/>
+        <ellipse cx="583.55" cy="875" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M586.5188,880.6406 Q585.9406,880.9375 585.3,881.0781 Q584.6594,881.2344 583.9563,881.2344 Q581.4563,881.2344 580.1281,879.5938 Q578.8156,877.9375 578.8156,874.8125 Q578.8156,871.6875 580.1281,870.0313 Q581.4563,868.375 583.9563,868.375 Q584.6594,868.375 585.3,868.5313 Q585.9563,868.6875 586.5188,868.9844 L586.5188,871.7031 Q585.8938,871.125 585.3,870.8594 Q584.7063,870.5781 584.0813,870.5781 Q582.7375,870.5781 582.05,871.6563 Q581.3625,872.7188 581.3625,874.8125 Q581.3625,876.9063 582.05,877.9844 Q582.7375,879.0469 584.0813,879.0469 Q584.7063,879.0469 585.3,878.7813 Q585.8938,878.5 586.5188,877.9219 L586.5188,880.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="598.45" y="879.1543">ReportesVenta</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="565.5" x2="698.5" y1="891" y2="891"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="565.5" x2="698.5" y1="899" y2="899"/>
+        <ellipse cx="575.5" cy="910.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="584.5" y="913.2104">void mostrartabla()</text>
+        <ellipse cx="575.5" cy="923.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="584.5" y="926.0151">void limpiartabla()</text>
+    </g>
+</svg>
