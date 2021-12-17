@@ -1,0 +1,178 @@
+@startuml
+class entity.Productos #cyan{
+    -id_prod:int
+    -descripcion:String
+    -precio:float
+    -stock:int
+    +void Productos()
+    +void Productos(id_prod, descripcion, precio, stock)
+    +void setId_prod()
+    +int getId_prod()
+    +setDescripcion()
+    +String getDescripcion()
+    +setStock()
+    +int getStock()
+    
+}
+class entity.Clientes #cyan{
+    -id_clientes:String
+    -nombre:String
+    -direccion:String
+    -telfono:string
+    -correo:String
+    +void Clientes()
+    +void Clientes(id_clientes,nombre,direccion,telefono,correo)
+    +int getId_clientes()
+    +setid_clientes()
+    +string getNombre()
+    +setNombre()
+    +String getTelefono()
+    +setTelefono()
+    +String getCorreo()
+    +setCorreo()
+}
+class entity.Proveedores #cyan{
+    -id_prov:String
+    -nombre:String
+    -direccion:String
+    -telefono:String 
+    -correo:String
+    +void Proveedores()
+    +void Proveedores(id_prov,nombre,direccion,telefono,correo)
+    +int getId_prov()
+    +setId_prov()
+    +String getNombre()
+    +setNombre()
+    +String getDireccion()
+    +setDireccion()
+    +String getCorreo()
+    +setCorreo()
+}
+class entity.Ventas #cyan{
+    -id_ventas:String
+    -numero:int
+    -cantidad:int
+    +void Ventas()
+    +void Ventas(id_prod,id_cliente,id_prov)
+    +int getIdventa()
+    +setIdventa()
+    +int getNumero()
+    +setNumero()
+    +int getCantidad()
+    +setCantidad
+}
+
+interface model.IClienteModel #gray {
+    +void nuevoCiente(int id_clientes)
+    +void modificaCliente(int id_clientes)
+    +void eliminarCliente(int id_clientes)
+    +void mostrarCliente()
+}
+
+class model.ClienteModelImpl #pink {
+    +void nuevoCiente(int id_clientes)
+    +void modificaCliente(int id_clientes)
+    +void eliminarCliente(int id_clientes)
+    +void mostrarCliente()
+}
+
+model.IClienteModel <|-- model.ClienteModelImpl
+
+
+interface model.IProductosModel #gray {
+    +void nuevoProducto(int id_prod)
+    +void modificarProductos(int id_prod)
+    +void eliminarProductos(int id_prod)
+    +void mostrarProductos()
+}
+class model.ProductosModelImp #pink {
+    +void nuevoProducto(int id_prod)
+    +void modificarProductos(int id_prod)
+    +void eliminarProductos(int id_prod)
+    +void mostrarProductos()
+}
+    model.IProductosModel <|-- model.ProductosModelImp
+
+interface model.IProveedorModel #gray {
+    +void nuevoProveedor(int id_prov)
+    +void modificaProveedpr(int id_prov)
+    +void eliminarProveedor(int id_prov)
+    +void mostrarProveedor()
+}
+
+class model.ProveedorModelImp #pink {
+    +void nuevoProveedor(int id_prov)
+    +void modificaProveedpr(int id_prov)
+    +void eliminarProveedor(int id_prov)
+    +void mostrarProveedor()
+}
+
+ model.IProveedorModel <|-- model.ProveedorModelImp
+
+interface model.IVentasModel #gray {
+    +void nuevaVenta(int id_venta)
+    +void eliminarVenta(int id_venta)
+    +void mostrarVentas()
+}
+
+class model.VentasModelImp #pink {
+    +void nuevaVenta(int id_venta)
+    +void eliminarVenta(int id_venta)
+    +void mostrarventa()
+}
+
+    model.IVentasModel <|-- model.VentasModelImp
+
+class controller.Ventascontroller #yellow{
+}
+class controller.Productoscontroller #yellow{
+}
+class controller.Proveedorcontroller #yellow{
+}
+class controller.Invetariocontroller #yellow{
+}
+
+
+
+class view.Principal #skyblue{
+}
+class view.Login #skyblue{
+    +void validar()
+}
+class view.Inventario #skyblue{
+    +void mostrartabla()
+    +void limpiartabla() 
+}
+class view.Clientes #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.Proveedores #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.PuntoVenta #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.VCliente #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.Vproducto #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.Vproveedores #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+class view.ReportesVenta #skyblue{
+    +void mostrartabla()
+    +void limpiartabla()
+}
+
+
+
+@enduml
+
