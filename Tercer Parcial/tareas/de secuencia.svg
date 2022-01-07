@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="277pt" style="width:218px;height:277px;" version="1.1" viewBox="0 0 218 277" width="218pt">
+    <defs>
+        <filter height="300%" id="f1" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="29" x2="29" y1="86.2969" y2="193.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="81" x2="81" y1="86.2969" y2="193.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="138" x2="138" y1="86.2969" y2="193.6953"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="193" x2="193" y1="86.2969" y2="193.6953"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="8" y="82.9951">Autor</text>
+        <ellipse cx="29.5" cy="13" fill="#FEFECE" filter="url(#f1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M29.5,21 L29.5,48 M16.5,29 L42.5,29 M29.5,48 L16.5,63 M29.5,48 L42.5,63 " fill="#FEFECE" filter="url(#f1)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="8" y="205.6904">Autor</text>
+        <ellipse cx="29.5" cy="218.9922" fill="#FEFECE" filter="url(#f1)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M29.5,226.9922 L29.5,253.9922 M16.5,234.9922 L42.5,234.9922 M29.5,253.9922 L16.5,268.9922 M29.5,253.9922 L42.5,268.9922 " fill="#FEFECE" filter="url(#f1)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="61" y="82.9951">entiti</text>
+        <ellipse cx="81" cy="54" fill="#FEFECE" filter="url(#f1)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <line style="stroke: #A80036; stroke-width: 2.0;" x1="69" x2="93" y1="68" y2="68"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="61" y="205.6904">entiti</text>
+        <ellipse cx="81" cy="224.9922" fill="#FEFECE" filter="url(#f1)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <line style="stroke: #A80036; stroke-width: 2.0;" x1="69" x2="93" y1="238.9922" y2="238.9922"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="111" y="82.9951">control</text>
+        <ellipse cx="138" cy="54" fill="#FEFECE" filter="url(#f1)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="134,42,140,37,138,42,140,47,134,42" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="111" y="205.6904">control</text>
+        <ellipse cx="138" cy="224.9922" fill="#FEFECE" filter="url(#f1)" rx="12" ry="12" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <polygon fill="#A80036" points="134,212.9922,140,207.9922,138,212.9922,140,217.9922,134,212.9922" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="179.5" y="82.9951">BD</text>
+        <path d="M175,38 C175,28 193,28 193,28 C193,28 211,28 211,38 L211,60 C211,70 193,70 193,70 C193,70 175,70 175,60 L175,38 " fill="#FEFECE" filter="url(#f1)" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <path d="M175,38 C175,48 193,48 193,48 C193,48 211,48 211,38 " fill="none" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="179.5" y="205.6904">BD</text>
+        <path d="M175,218.9922 C175,208.9922 193,208.9922 193,208.9922 C193,208.9922 211,208.9922 211,218.9922 L211,240.9922 C211,250.9922 193,250.9922 193,250.9922 C193,250.9922 175,250.9922 175,240.9922 L175,218.9922 " fill="#FEFECE" filter="url(#f1)" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <path d="M175,218.9922 C175,228.9922 193,228.9922 193,228.9922 C193,228.9922 211,228.9922 211,218.9922 " fill="none" style="stroke: #A80036; stroke-width: 1.5;"/>
+        <polygon fill="#A80036" points="181,113.2969,191,117.2969,181,121.2969,185,117.2969" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="29.5" x2="187" y1="117.2969" y2="117.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="36.5" y="112.3638">insertar datos</text>
+        <polygon fill="#A80036" points="181,142.4297,191,146.4297,181,150.4297,185,146.4297" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="29.5" x2="187" y1="146.4297" y2="146.4297"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="36.5" y="141.4966">modificar datos</text>
+        <polygon fill="#A80036" points="181,171.5625,191,175.5625,181,179.5625,185,175.5625" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="29.5" x2="187" y1="175.5625" y2="175.5625"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="36.5" y="170.6294">eliminar datos</text>
+    </g>
+</svg>
